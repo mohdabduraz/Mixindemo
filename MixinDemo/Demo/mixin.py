@@ -2,7 +2,6 @@ from django.core import mail
 import geoip2.database
 import geoip2.errors
 from . import models
-from django.http import HttpResponse
 
 # Mixin defination
 class VerifyLocation:
