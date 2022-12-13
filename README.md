@@ -30,3 +30,7 @@ class Loginform(forms.Form):
         self.fields['Username'] = forms.CharField(widget=widget)
         self.fields['Password'] = forms.CharField(widget=pwstyle)
 ```
+
+NB: You could have move the VerifyLocation to a saparate file like `mixins.py` instead of moving all logic in the views.
+Also  this file `c:/users/g-corp/geolite2-city.mmdb` what does it mean because it run on windows not on linux distro so how can one access it.
+You didn't include `requirements.txt`
