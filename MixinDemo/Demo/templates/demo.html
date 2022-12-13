@@ -1,0 +1,23 @@
+<!DocType html>
+<head>
+<link type="text/css" href="/static/style.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+
+	<div class="mediate">
+		<form action="/login/" method="POST">
+			{%csrf_token%}
+			
+			<div class="userstyle">Username</div>
+
+			<div class="pwdstyle">Password</div>
+
+			{{form}}
+
+			<input type="submit" name="login" value="Login" style="position: absolute;top: 15em;width: 11em;height: 30px;">
+		</form></div>
+
+		
+
+</body></html>

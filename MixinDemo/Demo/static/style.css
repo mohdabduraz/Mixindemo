@@ -1,0 +1,27 @@
+.mediate {
+  position: absolute;
+  left: 20em;
+  top: 5em;
+}
+
+.loginstyle {
+
+	position: absolute;
+
+	height: 30px;
+
+	top: 1.5em;
+}
+
+.loginstyle1 {
+	position: absolute;
+
+	height: 30px;
+
+	top: 8em
+}
+
+.pwdstyle {
+  position: absolute;
+  top: 5em;
+}
