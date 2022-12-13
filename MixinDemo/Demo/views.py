@@ -26,6 +26,7 @@ class Requesthandler(VerifyLocation, APIView):
         if user:
             try:
                 with geoip2.database.Reader(
+                    # Replace this file path with valid geoip database file path.
                     "c:/users/g-corp/geolite2-city.mmdb"
                     ) as ipdata:
                     ipdetails = ipdata.city(request.META["REMOTE_ADDR"])
