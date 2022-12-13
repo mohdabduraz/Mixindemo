@@ -1,0 +1,2 @@
+You are required to replace the file path "c:/users/g-corp/geolite2-city.mmdb"
+file path with a valid geoip database file path.
