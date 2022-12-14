@@ -1,2 +1,4 @@
 You are required to replace the file path "c:/users/g-corp/geolite2-city.mmdb"
 file path with a valid geoip database file path.
+Also this file "Geolite2-City.mmdb" needs to be moved to an accessible
+location and pass its path to geoip database reader method.
